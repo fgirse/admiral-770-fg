@@ -2,8 +2,6 @@
 import React from 'react';
 import Image from 'next/image';
 import { StyledButton } from "@/components/Buttons/Button.styles"
-import SVGSCFreiburgEmblem from "../components/icons/svg/SVGScFreiburg.js"
-import DataSCFreiburg from 'components/DataSCFreiburg.js'
 import LogoAlt from '../components/icons/svg/logoAlt';
 
 
