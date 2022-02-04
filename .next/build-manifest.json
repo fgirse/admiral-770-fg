@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/vv5twND6FrSGCqdxlaPv9/_buildManifest.js",
-    "static/vv5twND6FrSGCqdxlaPv9/_ssgManifest.js",
-    "static/vv5twND6FrSGCqdxlaPv9/_middlewareManifest.js"
+    "static/K5S1qlJA00BGGUkDelW0A/_buildManifest.js",
+    "static/K5S1qlJA00BGGUkDelW0A/_ssgManifest.js",
+    "static/K5S1qlJA00BGGUkDelW0A/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -17,7 +17,7 @@
       "static/chunks/893-2a4215b62d384356.js",
       "static/chunks/220-b4386726b7cdd9ed.js",
       "static/chunks/850-0211e3c760f0fc55.js",
-      "static/chunks/pages/index-3f990c2d63745b22.js"
+      "static/chunks/pages/index-1ce5b3d10a643112.js"
     ],
     "/404": [
       "static/chunks/webpack-729feb09677db7c5.js",
@@ -111,7 +111,7 @@
       "static/chunks/764-c427d2c2141616c0.js",
       "static/chunks/154-8ce850eb591dcd66.js",
       "static/chunks/346-92f97f1b7409bd69.js",
-      "static/chunks/pages/sportarena-1d76f69d91496adc.js"
+      "static/chunks/pages/sportarena-1fc27485e4880cdd.js"
     ],
     "/tags": [
       "static/chunks/webpack-729feb09677db7c5.js",
