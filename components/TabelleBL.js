@@ -5,7 +5,7 @@ import team from 'pages/team'
 import { data } from 'autoprefixer'
 import Image from 'next/image'
 import SVGSCFreiburgEmblem from'../components/icons/svg/SCLogo';
-import DataSCFreiburg from 'components/DataSCFreiburg.js'
+import DataSCFreiburg from '../components/DataSCFreiburg.js'
 
 
 const Table = () => {
