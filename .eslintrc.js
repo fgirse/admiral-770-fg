@@ -1,4 +1,3 @@
-j
 cls
 module.exports = {
   root: true,

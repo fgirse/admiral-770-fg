@@ -3,7 +3,7 @@ import Flensburger from '../components/icons/svg/SVGFlensburger';
 import Ganter from '../components/icons/svg/SVGGanter';
 import Astra from '../components/icons/svg/SVGAstra';
 import Skyline from "../components/icons/svg/SVGskyline"
-import SCLogo from "../components/icons";
+import SCLogo from "../components/icons/svg/SCLogo";
 import Image from 'next/image';
 import sketchy from "theme-ui-sketchy-preset"; 
 import { PhoneIcon } from '@heroicons/react/solid';
