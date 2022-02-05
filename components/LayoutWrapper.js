@@ -13,7 +13,7 @@ const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
       <div className="flex flex-col justify-between bg-gray-900 h-screen">
-        <header className="flex items-center justify-between py-10">
+        <header className="flex items-center justify-between py-12">
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
@@ -21,9 +21,9 @@ const LayoutWrapper = ({ children }) => {
                   <LogoNeu />
                 
                 </div>
-                <PhoneIcon className='hidden sm:block text-yellow-400 w-8 h-8'></PhoneIcon>
+                <PhoneIcon className='hidden lg:block text-yellow-400 w-8 h-8'></PhoneIcon>
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="hidden h-6 text-slate-300 hover:text-yellow-400 text-1xl font-semibold sm:block">
+                  <div className="hidden h-6 text-slate-300 hover:text-yellow-400 text-1xl font-semibold lg:block">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (

@@ -64,12 +64,10 @@ export default function Home() {
                           <Image src="/LogoAlt.png" alt="Logo alt" layout="responsive" height="130" width="916"/>
   </div>*/}
     <div style={{"background-image": "url('/Hero.png')"}} className="lg:block lg:bg-contain bg-center mx-auto border-t border-b border-yellow-400  w-full  lg:h-[66vh] lg:bg-100/66 l">
-  </div>
-{/*<div style={{"background-image": "url('hero2.png')"}} className="hidden bg-[length:100vw_50vh] -mt-3 mx-auto bg-no-repeat h-[70vh] lg:hidden">
-  </div>*/}
-    
+  
+    </div>
   </section>
-  <div className="hidden lg:block bg-yellow-500 w-11/12 mx-auto "> 
+  <div className="hidden lg:block bg-yellow-500 w-11/12 mx-auto ">
   <Skyline width="100%" height="14vh"></Skyline>
  </div>
 
@@ -78,20 +76,20 @@ export default function Home() {
 </div>
  
 {/*======================================================================= SDCTION A ===========================================================*/}
-<section className='mt-[60vh]'>
+<section className='-mt-[66vh]'>
 <div className='w- mx-auto flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:items-center'>
 
-<div className="p-6 max-w-sm lg:max-w-lg lg:w-full h-40 bg-slate-800 rounded-lg border border-gray-900 shadow-md shadow-gray-500/50 dark:bg-gray-800 dark:border-gray-700">
+<div className="p-4 max-w-sm lg:max-w-lg lg:w-full h-40 bg-slate-800 rounded-lg border border-gray-900 shadow-md shadow-gray-500/50 dark:bg-gray-800 dark:border-gray-700">
     <div className='' >
         <p className="mb-2 text-2xl font-bold tracking-tight text-yellow-500 dark:text-white uppercase lg:text-4xl">öfffnungzeiten</p>
         <p className="text-center mt-2 text-xs sm:text-2xl md:text-xl  text-gray-300 lg:text-l xl:text-base">Montag-Donnerstag: 18 bis 24 Uhr</p>
                 <p className="text-center text-xs sm:text-2xl md:text-5xl  text-gray-300 lg:text-xl xl:text-base">Freitag und Samstag: 15 bis 03 Uhr</p>
-                <p className=" mb-7 text-center text-base md:text-5xl  text-gray-300 lg:text-2xl xl:text-xl">Sonntag: Ruhetag</p>
+                <p className=" mb-2 text-center text-base md:text-5xl  text-gray-300 lg:text-2xl xl:text-xl">Sonntag: Ruhetag</p>
     </div>
         
     
 </div>
-<div className='w-3/5 bg-red-200'>
+<div className='-mt-10 w-11/12 bg-red-200'>
 <div className='hidden lg:block w-full'>
           <div href="#" className="flex flex-col items-center bg-red-900 w-rounded-lg border shadow-md md:flex-row md:max-w-xl lg:mt-60  lg:w- w-max-7xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
               <img className="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/portrait-mick1.png" alt=""/>
@@ -143,8 +141,8 @@ export default function Home() {
       </div>
 
       <section >
-        <div className='bg-green-300 container mx-auto w-11/12'>
-        <p className=' mt-10 text-gray-100 text-sm text-justify p-2 sm:mt-10 lg:mt-36 lg:text-4xl'>Gemütlich nordisches  Ambiente im Herzen der Altstadt Freiburgs gelegen. Orginales Waterkant-Feeling mit Astra, Flens & Co. Jeden Samstag Bundesliga Saison Spieltag <SCLogo className="mx-auto p-1 text-center w-4/12 lg:-mt-20"></SCLogo><br/> Live in unserer <a className='text-yellow-600 hover:text-slate-400 text-sm lg:text-4xl' href='#'>sportarena</a></p> 
+        <div className='bg-slate-800 rounded-2xl -mt-7 container mx-auto w-11/12'>
+        <p className=' mt-16 text-gray-100 text-sm text-justify p-5 sm:mt-10 lg:className="-mb-10"mt-36 lg:text-4xl'>Gemütlich nordisches  Ambiente im Herzen der Altstadt Freiburgs gelegen. Orginales Waterkant-Feeling mit Astra, Flens & Co. Jeden Samstag Bundesliga Saison Spieltag <SCLogo className="mx-auto p-1 -mt-20 text-center w-11/12 lg:-mt-20"></SCLogo ><br/> Live in unserer <a className='text-yellow-600 hover:text-slate-400 text-sm lg:text-4xl' href='#'>sportarena.</a> Beigrosser Nachfrage sind Reservierungen über unser Booking-Tool zu empfehlen.</p> 
         </div>
        
         <ThemeProvider theme={theme}>

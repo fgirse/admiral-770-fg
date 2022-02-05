@@ -1,25 +1,25 @@
 import React from 'react'
 import  Image from'next/image'
-import '../components/Light/css/timeline.module.css'
+
 
 const timeline = () => {
     return (
-        <div>
+        
             	<> 
-<body id="wrapper" className=" ">
+
 
 	{/* DEMO CONTAINER (THIS SHOULD BE YOUR DESTINATION DIV) */}
 	{/* DEMO CONTAINER (THIS SHOULD BE YOUR DESTINATION DIV) */}
-		<div className="container">
+		<div className="containerbox rounded-2xl">
 			
 			{/* PRELOAD */}
 			<div className="preload">
-				<img src="/preloader.gif" alt="" />
+				<img src="/preloader.gif" alt=""/>
 			</div>
 			
 			
 			{/*TIMELINE CONTAINER */}
-			<div id="timeline_container">
+			<div id="timeline-container" className="">
 				
 				{/* TIMELINE */}
 				<div id="timeline" 
@@ -37,22 +37,41 @@ const timeline = () => {
 
 						
 						{/* VIEWPORT - IMAGES */}
-						<div class="viewport">
-							<div class="images">
-								<div className='w-36'>
-								<Image src="/public/Hero.png" height="90" width="270" alt="Illustration"></Image>
+						<div className="relative overflow-hidden bg-center bg-no-repeat cover h-[90vh] w-96 "style={{"background-image": "url('/hero.png')"}} >
+							<div className="">
+								<div style={{"background-image": "url('/background.jpg')"}} className="w-full bg-center h-[66vh] bg-contain">
+							   <div className="w-60">
+								<Image src="/skyline_freiburg.png" height="275" width="1000" alt="Illustration"></Image>
+								</div>
+								<div className="w-24 h-20">
+								<Image src="/Albers_Illu_white.png" height="208" width="195" alt="Illustration"></Image>
+								</div>
+								<div className="mt-6 w-36">
+								<Image src="/LogoAlt.png" height="230" width="1049" alt="Illustration"></Image>
+								</div>
+								<div className="w-36">
+								<Image src="/Astraballons.png" height="2046" width="1739" alt="Illustration"></Image>
+								</div>
+								<div className="w-96">
+								<Image src="/content_img_5.png" height="90" width="270" alt="Illustration"></Image>
+								</div>
+								<div className="w-96">
+								<Image src="/content_img_6.jpg" height="90" width="270" alt="Illustration"></Image>
+								</div>
+								<div className="w-96">
+								<Image src="/sportarena.jpg" height="90" width="270" alt="Illustration"></Image>
+								</div>
 								</div> 
-								<img src="images/" alt="" />
+								<img src="../" alt="" />
 								<img src="images" alt="" />
 								<img src="images/content_img_4.png" alt="" />
 								<img src="images/content_img_5.png" alt="" />
-								<img src="images/content_img_6.jpg" alt="" />
+								<img src="/public/static/images/content_img_6.jpg" alt="" />
 							</div>
 						</div>
 						
-						
-						{/* SCROLLBAR (EDIT CSS FOR STYLING) */}
-						<div class="scrollbar">
+												{/* SCROLLBAR (EDIT CSS FOR STYLING) */}
+												<div class="scrollbar">
 							<div class="track">
 							
 								{/*  MILESTONES MARKS */}
@@ -194,10 +213,9 @@ const timeline = () => {
 
 		</div> {/* end container */}		
 
-y</body>
+
 </>
 
-        </div>
     )
 }
 
