@@ -30,6 +30,7 @@ import {
 } from "theme-ui";
 
 
+
 const theme = {
   ...sketchy,
   colors: {
@@ -39,19 +40,22 @@ const theme = {
   },
 
 }
-export default function Home() {
+export default function index() {
 
   return (
     <>
+        
+<div className='hidden md:block md:mx-auto md:w-12/12 md:border-t-4  md:border-b-4 md:border-yellow-400'>
+ <Image width="2748" height="966" src="/Hero.png" />
+</div>
 
- 
-   <section  style={{"background-image": "url('/hero2.png')"}} className="-mt-10 container w-12/12 h-[100vh] bg-[length:100vw_55vh] bg-no-repeat w-12/12 p-3 mx-auto sn-w-10/12 lg:11/12 lg:hidden">
+   <section  style={{"background-image": "url('/hero2.png')"}} className="-mt-10 container w-12/12 h-[100vh] bg-[length:100vw_55vh] bg-no-repeat w-12/12 p-3 mx-auto md:hidden">
    <div className='flex-col justify-start items-center md:hidden'>
    
      <div className='flex flex-row justify-start items-center gap-2 p-2'>
       <PhoneIcon className=" text-yellow-400 w-5 h-5"></PhoneIcon>
-      <p className='text-sm text-gray-100'>0761 38386747</p>   
-    </div>
+      <p className='text-sm text-gray-100'>0761 38386747</p>
+</div>
   
     <div className='-mt-3 flex flex-row justify-start items-start gap-2 p-2'>
       <AtSymbolIcon className="text-yellow-400 w-5 h-5"></AtSymbolIcon>
@@ -63,7 +67,7 @@ export default function Home() {
     {/*<div className='w-full lg:hidden'>
                           <Image src="/LogoAlt.png" alt="Logo alt" layout="responsive" height="130" width="916"/>
   </div>*/}
-    <div style={{"background-image": "url('/Hero.png')"}} className="lg:block lg:bg-contain bg-center mx-auto border-t border-b border-yellow-400  w-full  lg:h-[66vh] lg:bg-100/66 l">
+    <div style={{"background-image": "url{HeroA}"}} className="lg:block lg:bg-contain bg-center mx-auto border-t border-b border-yellow-400  w-full  lg:h-[66vh] lg:bg-100/66 l">
   
     </div>
   </section>
@@ -76,20 +80,20 @@ export default function Home() {
 </div>
  
 {/*======================================================================= SDCTION A ===========================================================*/}
-<section className='-mt-[66vh]'>
-<div className='w- mx-auto flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:items-center'>
+<section className='-mt-[60vh] md:-mt-[13vh]'>
+<div className='w- mx-auto flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:items-center gap-x-5'>
 
-<div className="p-4 max-w-sm lg:max-w-lg lg:w-full h-40 bg-slate-800 rounded-lg border border-gray-900 shadow-md shadow-gray-500/50 dark:bg-gray-800 dark:border-gray-700">
-    <div className='' >
-        <p className="mb-2 text-2xl font-bold tracking-tight text-yellow-500 dark:text-white uppercase lg:text-4xl">öfffnungzeiten</p>
-        <p className="text-center mt-2 text-xs sm:text-2xl md:text-xl  text-gray-300 lg:text-l xl:text-base">Montag-Donnerstag: 18 bis 24 Uhr</p>
-                <p className="text-center text-xs sm:text-2xl md:text-5xl  text-gray-300 lg:text-xl xl:text-base">Freitag und Samstag: 15 bis 03 Uhr</p>
-                <p className=" mb-2 text-center text-base md:text-5xl  text-gray-300 lg:text-2xl xl:text-xl">Sonntag: Ruhetag</p>
+<div className="p-4 w-full h-40 md:h-48 md:p-6 bg-slate-800 rounded-lg border border-gray-900 shadow-md shadow-gray-500/50 dark:bg-gray-800 dark:border-gray-700">
+    <div className='md:w-10/12 '>
+        <p className="mb-2 text-center text-2xl font-bold tracking-tight text-yellow-500 dark:text-white uppercase md:text-4xl">öfffnungzeiten</p>
+        <p className="text-center mt-2 text-xs sm:text-2xl text-gray-300 md:text-base lg:text-base">Montag-Donnerstag: 18 bis 24 Uhr</p>
+                <p className="text-center text-xs sm:text-2xl md:text-base  text-gray-300 lg:text-xl xl:text-base">Freitag und Samstag: 15 bis 03 Uhr</p>
+                <p className=" mb-2 text-center text-sm md:text-xl text-gray-300 lg:text-2xl xl:text-xl">Sonntag: Ruhetag</p>
     </div>
         
     
 </div>
-<div className='-mt-10 w-11/12 bg-red-200'>
+<div className='-mt-10 w-11/12 bg-slate-900 md:mt-2 mx-auto'>
 <div className='hidden lg:block w-full'>
           <div href="#" className="flex flex-col items-center bg-red-900 w-rounded-lg border shadow-md md:flex-row md:max-w-xl lg:mt-60  lg:w- w-max-7xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
               <img className="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/portrait-mick1.png" alt=""/>
@@ -102,7 +106,7 @@ export default function Home() {
 
 
 <div className='mt-5 justify-self-center w-full lg:hidden'>
-<div class="max-w-sm bg-red-900 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div class="bg-red-900 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div className=' max-w-3xl rounded-b-lg w-32 mt-4 px-4 float-left'>
         <Image className="rounded-b-xl" src="/portrait-mick1.png" height="133" width="100" layout="responsive" alt="portrait" />
     </div>
@@ -124,29 +128,29 @@ export default function Home() {
 
 {/*========================== ENDE SECTION A ===================================================*/}
  
-<h1 className='headingB relative mt-[5vh] left-1 z-50 text-[3rem] text-yellow-500 text-center lg:headingA   a lg:text-[10rem]'>Die Kneipe</h1>
-       <div className='w-5/12 absolute right-7 transform -translate-y-1 md:w-6/12 md:right-16 lg:w-3/12 xl:w-3/12 float-right md:transform md:-translate-y-48 xl:transforn z-20 xl:-translate-y-[60vh]' >
+<h1 className='headingB relative mt-[5vh] left-1 z-50 text-[3rem] text-yellow-500 text-center md:text-8xl lg:headingA   a lg:text-[10rem]'>Die Kneipe</h1>
+       <div className='w-5/12 absolute right-7 transform -translate-y-1 md:w-5/12 md:right-16 lg:w-3/12 xl:w-3/12 float-right md:transform md:-translate-y- xl:transforn z-20 xl:-translate-y-[60vh]' >
         <Image className='absolute' src="/Astraballons.png" alt="astraballons" layout="responsive" height={2064} width={1739} />
       </div>
    
-      <div className='w-/12 z-10 md:absolute transform -translate-y-32 md:w-5/12 xl:w-4/12 xl:transform:-translate-y-[80vh]'>
+      <div className='w-/12 z-10 md:absolute transform -translate-y- md:w-5/12 xl:w-4/12 xl:transform:-translate-y-[80vh]'>
         <Image src="/lighthousebw.svg" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
       
-      <div className='absolute w-2/4 left-5  md:2/12 transform -translate-y-48 md:transform:-translate-y-96 lg:w-2/12 xl:transform xl:-translate-y-[35vh]' >
+      <div className='absolute w-2/4 left-5  md:1/12 transform -translate-y-48 md:transform:-md:translate-y-6 lg:w-2/12 xl:transform xl:-translate-y-[35vh]' >
         <Image src="/rettungsring.png" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
       <div className=' transform -translate-y-32 right-8 absolute w-5/12  md:transform:-translate-y-24 lg:transform lg:w-3/12 lg:-transform: lg:translate-y-96' >
         <Image src="/Graffity_StPauli.png" alt="llustration" layout="responsive" height={473} width={473} />
       </div>
 
-      <section >
-        <div className='bg-slate-800 rounded-2xl -mt-7 container mx-auto w-11/12'>
-        <p className=' mt-16 text-gray-100 text-sm text-justify p-5 sm:mt-10 lg:className="-mb-10"mt-36 lg:text-4xl'>Gemütlich nordisches  Ambiente im Herzen der Altstadt Freiburgs gelegen. Orginales Waterkant-Feeling mit Astra, Flens & Co. Jeden Samstag Bundesliga Saison Spieltag <SCLogo className="mx-auto p-1 -mt-20 text-center w-11/12 lg:-mt-20"></SCLogo ><br/> Live in unserer <a className='text-yellow-600 hover:text-slate-400 text-sm lg:text-4xl' href='#'>sportarena.</a> Beigrosser Nachfrage sind Reservierungen über unser Booking-Tool zu empfehlen.</p> 
+      <section className='mt-[66vh]' >
+        <div className='bg-slate-700 rounded-2xl -mt-36 container mx-auto w-11/12'>
+        <p className=' mt-16 text-gray-100 text-sm text-justify p-5 sm:mt-10 lg:className="-mb-10"mt-36 lg:text-4xl'>Gemütlich nordisches  Ambiente im Herzen der Altstadt Freiburgs gelegen. Orginales Waterkant-Feeling mit Astra, Flens & Co. Jeden Samstag Bundesliga Saison Spieltag <SCLogo className="mx-auto p-1 -mt-24 -mb-24 md:-mb-8 text-center w-11/12 lg:-mt-20"></SCLogo ><br/> Live in unserer <a className='text-yellow-600 hover:text-slate-400 hover:border-b hover-border-slate-400 text-sm lg:text-4xl' href='/sportarena'>sportarena.</a> Bei Top Spielen mit grosser Nachfrage sind Reservierungen über unser Booking-Tool zu empfehlen.</p> 
         </div>
        
         <ThemeProvider theme={theme}>
-          <div className=" mx-auto max-w-8xl grid grid-cols-1 gap-1 justify-center items-center p-2 md:p-6  md:grid-[biergalerie]-cols-2 lg: lg:mt-96 lg:ml-24 xl:ml-24 lg:grid-[]repeat, autofill (250px,1fr) lg:justify-around lg:item11s-center lg:gap-16" >
+          <div className=" mx-auto w-10/12 max-w-8xl grid grid-cols-1 gap-1 justify-center items-center p-2 md:p-6  md:grid-[biergalerie]-cols-2 lg: lg:mt-96 lg:ml-24 xl:ml-24 lg:grid-[]repeat, autofill (250px,1fr) lg:justify-around lg:item11s-center lg:gap-16" >
 
           <Card
           className='justify-self-center'
@@ -162,7 +166,7 @@ export default function Home() {
               }} onGotPointerCapture={2}
             >
               <div className='mx-auto border- border-gray-100'>
-                <Astra aspect-ratio="16:9" object-fit="contain" width="100%"></Astra>
+                <Astra object-fit="cover" height="25vh"  width="100%"></Astra>
               </div>
               <Text>
                 <p className="mt-10 text-2xl text-center text uppercase font-bold" >Astra Bier</p>
@@ -183,7 +187,7 @@ export default function Home() {
               }} onGotPointerCapture={2}
             >
               <div className='mx-auto border- border-gray-100'>
-                <Ganter aspect-ratio="16:9" object-fit="contain" width="100%"></Ganter>
+                <Ganter aobject-fit="cover" height="25vh"  width="100%"></Ganter>
               </div>
               <Text>
                 <p className="mt-10 text-2xl text-center text uppercase font-bold" >Ganter Bier</p>
@@ -203,7 +207,7 @@ export default function Home() {
               }} onGotPointerCapture={2}
             >
               <div className='mx-auto border- border-gray-100'>
-                <Flensburger aspect-ratio="16:9" object-fit="contain" width="100%"></Flensburger>
+                <Flensburger object-fit="cover" height="25vh"  width="100%"></Flensburger>
               </div>
               <Text>
                 <p className="mt-10 text-2xl text-center text uppercase font-bold">Flensburger</p>

@@ -37,9 +37,9 @@ const timeline = () => {
 
 						
 						{/* VIEWPORT - IMAGES */}
-						<div className="relative overflow-hidden bg-center bg-no-repeat cover h-[90vh] w-96 "style={{"background-image": "url('/hero.png')"}} >
+						<div className="relative overflow-hidden bg-center bg-no-repeat cover h-[90vh] w-96 "style={{"background-image": "url('/earth.png')"}} >
 							<div className="">
-								<div style={{"background-image": "url('/background.jpg')"}} className="w-full bg-center h-[66vh] bg-contain">
+								<div style={{"background-image": "url('earth.png')"}} className="w-full bg-center h-[66vh] bg-contain">
 							   <div className="w-60">
 								<Image src="/skyline_freiburg.png" height="275" width="1000" alt="Illustration"></Image>
 								</div>
